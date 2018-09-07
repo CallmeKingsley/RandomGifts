@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   height: 100%;
-  background-color: red;
+  background-color: rgb(250, 250, 250);
   
 }
 .logo{
@@ -29,11 +29,22 @@
   justify-content: flex-start;
   align-content: flex-end;
 }
+#toggle{
+  display: none;
+}
+.test21{
+  display: none;
+}
+label{
+  max-width: 0 0 40% 0;
+  font-size: 26px;
+  display: none;
+}
 .test{
 
   width: 100%;
   height: 550px;
-  background-color: rgb(47, 193, 255); 
+  background-color: rgba(240, 240, 240, 1.0); 
 }
 li{
   
@@ -45,13 +56,32 @@ li{
   background-color: white;
 
 }
-@media(max-width:800px){
 
-  .App-header{
-    flex-direction: column;
+@media(max-width:800px){
+  .header{
+    position: absolute;
+    width: 100%;
   }
-  .Nav-list{
-    flex-direction: column;
-  
+  label{
+   cursor: pointer;
+    display: flex;
+    margin-right:12px;
+    justify-content: flex-end;
+
+  }
+  .App-header{
+
+    display: none;
+  }
+  .test21{
+
+    display: none;
+  }
+  #toggle:checked + .test21{
+    margin-left: 20%;
+    position: absolute;
+    background-color: white;
+    display: block;
+    
   }
 }
