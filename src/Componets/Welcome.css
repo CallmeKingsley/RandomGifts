@@ -1,12 +1,12 @@
 .welcome{
-
+    
     width: 100%;
-    height: 540px;
+    height: 440px;
     background-color: rgba(120, 165, 198, 1.0); 
 }
 .img{
     width: 100%;
-  
+    height: 780px;
 }
 .blurEffect{
   display: flex;  
@@ -14,12 +14,12 @@
   align-content: flex-end;
 }
 .animatedVideo{
-color: white;
+color: black;
 position: relative;
 margin-top: -40%;
 }
 .info{
-color: white;
+color: black;
 position: relative;
 margin-top: -40%;
 }

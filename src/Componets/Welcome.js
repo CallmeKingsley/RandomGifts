@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import '../../src/App.css';
 import '../Componets/Welcome.css';
-import image from '../../src/Assets/fun.jpg';
+import image from '../../src/Assets/test.jpg';
 class Welcome extends Component {
   render() {
 
     return (
       <div className="Welcome" id ="home">
        
-        <img className ="img" src={image}/>
+       <img className ="img" src={image}/>
        <div className ="blurEffect">
         <div className = "info">
          <h3> welcome to random gifts</h3>

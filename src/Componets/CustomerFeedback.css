@@ -1,0 +1,26 @@
+.CustomerFeedback{
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 550px;
+    width: 80%;
+    margin: auto;
+
+
+}
+.feedboard{
+    width: 30%;
+    margin: 12px;
+    height: 140px;
+    border-radius: 1rem;
+    background-color: brown;
+}
+.CustomerFeedback-main{
+
+    height: auto;
+    width: 100%;
+    background-color: white;
+
+}
