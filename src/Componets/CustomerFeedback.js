@@ -7,7 +7,7 @@ class CustomerFeedBack extends Component {
 
     return (
       <div className = 'CustomerFeedback-main'>
-       <h1>Customer Feedback</h1>
+       <h2>Customer Feedback</h2>
       <div className="CustomerFeedback" id = "feeedback">
          <div className = 'feedboard'><h1>Talk one</h1></div>
          <div className = 'feedboard'><h1>Talk two</h1></div>

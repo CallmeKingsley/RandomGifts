@@ -1,3 +1,6 @@
+*{
+  color: rgba(47, 78, 127, 1.0);
+}
 .App {
   text-align: center;
   height: 100%;
@@ -13,7 +16,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: beige;
+ 
+}
+button{
+  width: 90px;
+  height: 40px;
+  border-radius: 0.8rem;
+  margin-top: 2%;
+  margin-left: 2%;
+  font-size: 80%;
+  color: rgba(47, 78, 127, 1.0);
+}
+button:hover{
+
+  background-color:  rgba(96, 143, 215, 1.0);
 }
 .signup{
   
@@ -54,7 +70,7 @@ label{
   display: none;
 }
 .footer{
-  background-color: rgba(225, 225, 225, 1.0);
+  background-color: rgba(37, 37, 37, 1.0);
 }
 .test{
 
@@ -64,6 +80,10 @@ label{
 }
 .we{
   text-decoration: none;
+  color: rgba(47, 78, 127, 1.0);
+}
+.we:hover{
+  color: rgba(96, 143, 215, 1.0);
 }
 .footer{
   width: 100%;

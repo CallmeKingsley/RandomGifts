@@ -7,7 +7,7 @@ class Workings extends Component {
 
     return (
       <div className="working-main">
-      <h1>How it works</h1>
+      <h2>How it works</h2>
       <div className="working" id ="workings">
       
         <div className="box"></div>

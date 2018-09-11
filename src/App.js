@@ -6,6 +6,7 @@ import Service from './Componets/Services';
 import Workings from './Componets/Workings';
 import Navigation from './Componets/Navigation';
 import logo from './Assets/LOGO.png';
+import About from './Componets/About'
 
 import CustomerFeedback from './Componets/CustomerFeedback';
 class App extends Component {
@@ -20,10 +21,8 @@ class App extends Component {
         </div>
         <Navigation/>
         <div className="signupLogin">
-         
-          <button>login</button>
-          <button>login</button>
-  
+          <button className = "signup">login</button>
+          <button className = "signup">signup</button>
         </div>
         
         </header>
@@ -35,16 +34,18 @@ class App extends Component {
               <img className ="logo" src={logo}/>
            </div>
         <Navigation/>
-        <div className="signup">
-          <h2>login</h2>
-          <h2>sign up</h2>
-        </div>
+        <div className="signupLogin">
+         
+         <button className = "signup">login</button>
+         <button className = "signup">signup</button>
+ 
+       </div>
         </div>
         </div>
         </div>
          <Welcome/>
          <Workings/>  
-         <CustomerFeedback/>
+         <About/>
          <footer  className ="footer" id = "contact">
           <div>
           <h1>footer</h1>

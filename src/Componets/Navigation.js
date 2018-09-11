@@ -11,13 +11,13 @@ const Navigation = () => {
           
         <ul className="Nav-list">
           <li className="">
-            <AnchorLink offset='100' className="we" href="#home">Home</AnchorLink>
+            <AnchorLink offset='100' className="we" href="#home">Welcome</AnchorLink>
           </li>
           <li className="">
             <AnchorLink offset='100' className="we" href="#workings">How it Works</AnchorLink>
           </li>
           <li className="">
-            <AnchorLink  offset='100' className="we" href="#feeedback">Testimonas</AnchorLink>
+            <AnchorLink  offset='100' className="we" href="#about">About</AnchorLink>
           </li>
           
         </ul>

@@ -14,9 +14,8 @@ class Welcome extends Component {
          <h3> welcome to random gifts</h3>
          <h3> our goal is to surprise you woth randoms gifts</h3>
          <h3> we put excitement in mail</h3>
-         <h1>
-           Sign up now
-         </h1>
+         <button className = "signup">login</button>
+         <button className = "signup">signup</button>
         </div>
         <div className = "animatedVideo">
           <h1>Video Explanation</h1>
