@@ -1,10 +1,10 @@
 .welcome{
-    
+    display: flex;  
     width: 100%;
-    height: 440px;
+    height: 100px;
     background-color: rgba(120, 165, 198, 1.0); 
 }
-.img{
+.main{
     width: 100%;
     height: 780px;
 }
@@ -13,13 +13,23 @@
   justify-content: space-around;
   align-content: flex-end;
 }
+.Big-btn-login{
+    width: 110px;
+}
+.Big-btn-signup{
+    width: 110px;
+    background-color: rgba(176, 73, 64, 1.0);
+}
 .animatedVideo{
 color: black;
+background-color: black;
 
+height: 400px;
+width: 530px;
 margin-top: -40%;
 }
 .info{
 color: black;
 
-margin-top: -40%;
+margin-top: -32%;
 }

@@ -13,7 +13,7 @@ class About extends Component {
          </div>
        
          <div className = "left">
-         <h2>left</h2>
+         <h2> information about the company</h2>
          </div>
 
          </div>

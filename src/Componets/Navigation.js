@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import logo from '../Assets/LOGO.png'
 const Navigation = () => {
   
@@ -11,6 +12,7 @@ const Navigation = () => {
           
         <ul className="Nav-list">
           <li className="">
+          
             <AnchorLink offset='100' className="we" href="#home">Welcome</AnchorLink>
           </li>
           <li className="">
