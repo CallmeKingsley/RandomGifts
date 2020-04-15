@@ -1,26 +1,24 @@
-import React, { Component } from 'react';
-import iamge from '../Assets/companyImg.jpg';
+import React, { Component } from 'react'
+import iamge from '../Assets/companyImg.jpg'
 import '../../src/Componets/About.css'
 class About extends Component {
-  render() {
-
+  render () {
     return (
-      <div className="about-main" id ="about">
-         <h2>About</h2>
-         <div className = "about">
-         <div className = "right">
-         <img className ="image" src={iamge}/>
-         </div>
-       
-         <div className = "left">
-         <h2> information about the company</h2>
-         </div>
+      <div className='about-main' id='about'>
+        <h2>About</h2>
+        <div className='about'>
+          <div className='right'>
+            <img className='image' src={iamge} />
+          </div>
+          <div className='left'>
+            <h2> information about the company</h2>
+          </div>
 
-         </div>
-         
+        </div>
+
       </div>
-    );
+    )
   }
 }
 
-export default About;
+export default About
